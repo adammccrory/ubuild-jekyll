@@ -6,16 +6,18 @@ page_sections:
 - template: navigation-header
   block: header-1
   logo: ''
-  navigation: []
+  navigation:
+  - link: "#"
+    link_text: A link
 - template: simple-header
   block: header-3
   logo: ''
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  headline: ''
-  slug: ''
-  content: ''
+  headline: This is the headline
+  slug: headline something
+  content: some content to go here
   media:
     image: ''
     alt_text: ''
